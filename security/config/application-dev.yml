@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    test:
+      path: /test/**
+      url: http://localhost:8081
+
+security:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testoauth2
+    username: root
+    password: root

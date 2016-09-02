@@ -1,0 +1,18 @@
+server:
+  port: 9080
+  contextPath: /api
+
+security:
+  user:
+    password: none
+
+ribbon:
+  eureka:
+    enabled: false
+
+spring:
+  profiles:
+    active: dev
+
+logging:
+  config: file:config/logback.xml
